@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="37D7EEA4-6066-C2D1-ECAA-16A5F97F32FA" name="Rotas">
+<createdBy>edils</createdBy>
+<createdTime>2026-05-01 20:12:45 UTC</createdTime>
+<generatorID>B185B6E8-0576-123F-16AE-B1A5AE7BD2F8</generatorID>
+<ownerDesignName>olok</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ponto_partida" id="804DD0FC-32D2-A1BF-1E21-713A9A6106A2">
+<createdBy>edils</createdBy>
+<createdTime>2026-05-01 20:12:45 UTC</createdTime>
+<generatorID>5A3BEE5F-7C4C-2FDE-86FA-38A7DFB1CC8D</generatorID>
+<ownerDesignName>olok</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pronto_chegada" id="2476C40C-ED58-2F5E-B693-4B1BCD7D141E">
+<createdBy>edils</createdBy>
+<createdTime>2026-05-01 20:12:45 UTC</createdTime>
+<generatorID>6CF80DA5-A8E8-76D6-240B-B7D6B23CD536</generatorID>
+<ownerDesignName>olok</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="distancia" id="36DCA8D9-3FBB-2627-AE9B-88A4AE8AF2E3">
+<createdBy>edils</createdBy>
+<createdTime>2026-05-01 20:12:45 UTC</createdTime>
+<generatorID>B70FBEC8-6168-4329-F492-3B65E5B0D431</generatorID>
+<ownerDesignName>olok</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estimativa_tempo_viagem" id="116D2011-5AD4-CE4F-62AB-22C5BFF2D644">
+<createdBy>edils</createdBy>
+<createdTime>2026-05-01 20:12:45 UTC</createdTime>
+<generatorID>900C445B-BF06-7895-1AFB-BCCB042E0E7C</generatorID>
+<ownerDesignName>olok</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ocorrencia_id_rotas" id="300990F2-0785-FB74-D994-F7DD14C03038">
+<createdBy>edils</createdBy>
+<createdTime>2026-05-01 20:12:45 UTC</createdTime>
+<generatorID>AD851C37-11B0-61FE-1B7E-545DB5CFF9C6</generatorID>
+<ownerDesignName>olok</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>40</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC6044E3-2A22-B6FD-FB1A-55119CF12CE6" referredColumn="3888C6FF-E3B2-1DE0-0E0B-9A5E78002E63"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9828BF17-D094-6CBC-57AC-23E1E8E559F9" name="Rotas_PK">
+<createdBy>edils</createdBy>
+<createdTime>2026-05-01 20:12:45 UTC</createdTime>
+<generatorID>14660895-7C47-135B-5C11-E79A242313DE</generatorID>
+<ownerDesignName>olok</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="300990F2-0785-FB74-D994-F7DD14C03038"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0B18196-58E8-4C58-10DF-B6D00D6ECD45" name="Rotas_Ocorrencia_FK">
+<createdBy>edils</createdBy>
+<createdTime>2026-05-01 20:12:45 UTC</createdTime>
+<generatorID>10BAA03D-0D51-82F7-D450-E1EB24CD4A19</generatorID>
+<ownerDesignName>olok</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="300990F2-0785-FB74-D994-F7DD14C03038"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

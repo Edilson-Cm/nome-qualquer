@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DE4E16D6-795A-FD73-8196-D8DA3424F0ED" name="Ocorrencia">
+<createdBy>edils</createdBy>
+<createdTime>2026-05-01 19:46:14 UTC</createdTime>
+<ownerDesignName>olok</ownerDesignName>
+<engineerTo>
+<item key="C6EDFE1A-38D7-B6F7-F80F-C4314B0B3A01" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="data" id="324A28E1-2B5F-D16B-D9C1-900B14D4082B">
+<createdBy>edils</createdBy>
+<createdTime>2026-05-01 19:46:25 UTC</createdTime>
+<ownerDesignName>olok</ownerDesignName>
+<engineerTo>
+<item key="C6EDFE1A-38D7-B6F7-F80F-C4314B0B3A01" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="situacao" id="8D3A75EE-E8A0-0305-267D-9B5180B90BCD">
+<createdBy>edils</createdBy>
+<createdTime>2026-05-01 19:46:26 UTC</createdTime>
+<ownerDesignName>olok</ownerDesignName>
+<engineerTo>
+<item key="C6EDFE1A-38D7-B6F7-F80F-C4314B0B3A01" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="661D67E6-D8C1-D192-19AF-B7211AC6731E" name="Ocorrencia PK">
+<createdBy>edils</createdBy>
+<createdTime>2026-05-01 20:05:27 UTC</createdTime>
+<ownerDesignName>olok</ownerDesignName>
+<engineerTo>
+<item key="C6EDFE1A-38D7-B6F7-F80F-C4314B0B3A01" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

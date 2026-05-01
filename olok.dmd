@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="olok" id="6C5B8E6F-6F2F-F0FC-FF77-36EDA7C219E5" version="3.5">
+<createdBy>edils</createdBy>
+<createdTime>2026-05-01 18:28:26 UTC</createdTime>
+<ownerDesignName>olok</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>6C5B8E6F-6F2F-F0FC-FF77-36EDA7C219E5</designId>
+</OSDM_Design>

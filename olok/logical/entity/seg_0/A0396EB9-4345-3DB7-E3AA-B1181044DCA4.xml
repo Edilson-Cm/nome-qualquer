@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A0396EB9-4345-3DB7-E3AA-B1181044DCA4" name="Motoristas">
+<createdBy>edils</createdBy>
+<createdTime>2026-05-01 18:51:58 UTC</createdTime>
+<ownerDesignName>olok</ownerDesignName>
+<engineerTo>
+<item key="C6EDFE1A-38D7-B6F7-F80F-C4314B0B3A01" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numero_identificacao" id="69ABB2AD-A56A-7AED-4FBF-C07E585D7078">
+<createdBy>edils</createdBy>
+<createdTime>2026-05-01 18:52:22 UTC</createdTime>
+<ownerDesignName>olok</ownerDesignName>
+<engineerTo>
+<item key="C6EDFE1A-38D7-B6F7-F80F-C4314B0B3A01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<ownDataTypeParameters>,50,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="43CD2F92-2471-2F9E-FAF4-491473B76414">
+<createdBy>edils</createdBy>
+<createdTime>2026-05-01 18:52:07 UTC</createdTime>
+<ownerDesignName>olok</ownerDesignName>
+<engineerTo>
+<item key="C6EDFE1A-38D7-B6F7-F80F-C4314B0B3A01" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_nascimento" id="68789129-FFC5-EEE0-2367-C8DFB96B2F45">
+<createdBy>edils</createdBy>
+<createdTime>2026-05-01 18:52:51 UTC</createdTime>
+<ownerDesignName>olok</ownerDesignName>
+<engineerTo>
+<item key="C6EDFE1A-38D7-B6F7-F80F-C4314B0B3A01" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="categoria_habilitacao" id="57C3E5AD-3076-2711-0E98-7E5122A23BEA">
+<createdBy>edils</createdBy>
+<createdTime>2026-05-01 18:53:34 UTC</createdTime>
+<ownerDesignName>olok</ownerDesignName>
+<engineerTo>
+<item key="C6EDFE1A-38D7-B6F7-F80F-C4314B0B3A01" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B123C02E-0F15-32DC-0A76-4D873BCE598E" name="Motoristas PK">
+<createdBy>edils</createdBy>
+<createdTime>2026-05-01 18:52:48 UTC</createdTime>
+<ownerDesignName>olok</ownerDesignName>
+<engineerTo>
+<item key="C6EDFE1A-38D7-B6F7-F80F-C4314B0B3A01" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>69ABB2AD-A56A-7AED-4FBF-C07E585D7078</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

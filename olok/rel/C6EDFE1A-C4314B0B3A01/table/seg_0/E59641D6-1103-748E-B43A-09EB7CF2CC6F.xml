@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E59641D6-1103-748E-B43A-09EB7CF2CC6F" name="Ocorrencia">
+<createdBy>edils</createdBy>
+<createdTime>2026-05-01 20:12:45 UTC</createdTime>
+<generatorID>DE4E16D6-795A-FD73-8196-D8DA3424F0ED</generatorID>
+<ownerDesignName>olok</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="data" id="3F110024-2AFC-1168-D7E3-E89C63DE49CC">
+<createdBy>edils</createdBy>
+<createdTime>2026-05-01 20:12:45 UTC</createdTime>
+<generatorID>324A28E1-2B5F-D16B-D9C1-900B14D4082B</generatorID>
+<ownerDesignName>olok</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="situacao" id="3D848663-FE8B-A855-ED6A-E3FEA0BCC9BA">
+<createdBy>edils</createdBy>
+<createdTime>2026-05-01 20:12:45 UTC</createdTime>
+<generatorID>8D3A75EE-E8A0-0305-267D-9B5180B90BCD</generatorID>
+<ownerDesignName>olok</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_rotas" id="3888C6FF-E3B2-1DE0-0E0B-9A5E78002E63">
+<createdBy>edils</createdBy>
+<createdTime>2026-05-01 20:12:45 UTC</createdTime>
+<generatorID>DCADCCD0-A87D-D42A-BEB4-328409A4762A</generatorID>
+<ownerDesignName>olok</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>40</dataTypePrecision>
+<ownDataTypeParameters>,40,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1FE99634-FBDE-E7AE-28CA-E756BC8AA3DD" name="Ocorrencia_PK">
+<createdBy>edils</createdBy>
+<createdTime>2026-05-01 20:12:45 UTC</createdTime>
+<generatorID>661D67E6-D8C1-D192-19AF-B7211AC6731E</generatorID>
+<ownerDesignName>olok</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3888C6FF-E3B2-1DE0-0E0B-9A5E78002E63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

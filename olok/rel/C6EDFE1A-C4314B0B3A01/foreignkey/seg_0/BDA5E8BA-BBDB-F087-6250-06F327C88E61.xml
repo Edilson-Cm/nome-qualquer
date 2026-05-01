@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BDA5E8BA-BBDB-F087-6250-06F327C88E61" containerWithKeyObject="83031263-2EE9-9877-4FF1-C10FABBD729C" localFKIndex="F1763BF8-A125-8080-2E87-F1F94E289B35" name="Motoristas_Ocorrencia_FK">
+<createdBy>edils</createdBy>
+<createdTime>2026-05-01 20:12:45 UTC</createdTime>
+<generatorID>72AFC394-CFBC-1F3D-60D8-0DB48F1B3B7A</generatorID>
+<ownerDesignName>olok</ownerDesignName>
+<referredTableLongName>Ocorrencia</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E59641D6-1103-748E-B43A-09EB7CF2CC6F</referredTableID>
+<keyObject>1FE99634-FBDE-E7AE-28CA-E756BC8AA3DD</keyObject>
+<referredKeyID>1FE99634-FBDE-E7AE-28CA-E756BC8AA3DD</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_rotas</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

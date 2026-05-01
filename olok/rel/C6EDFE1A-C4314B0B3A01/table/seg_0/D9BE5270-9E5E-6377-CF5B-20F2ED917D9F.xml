@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D9BE5270-9E5E-6377-CF5B-20F2ED917D9F" name="Veiculos">
+<createdBy>edils</createdBy>
+<createdTime>2026-05-01 20:12:45 UTC</createdTime>
+<generatorID>21E500A3-FE7A-39BB-85CF-5BC4D9F1D0A3</generatorID>
+<ownerDesignName>olok</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_veiculo" id="E5B82B73-35B2-8B3C-1D4E-D3C08AE7EC69">
+<createdBy>edils</createdBy>
+<createdTime>2026-05-01 20:12:45 UTC</createdTime>
+<generatorID>23A904E6-D726-2F1A-47C1-E02C8B64A6A7</generatorID>
+<ownerDesignName>olok</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="modelo" id="EC118E87-68A1-ECFF-0794-2B4A21BF7853">
+<createdBy>edils</createdBy>
+<createdTime>2026-05-01 20:12:45 UTC</createdTime>
+<generatorID>9387AAC6-836A-F99D-9341-963F91FFEC42</generatorID>
+<ownerDesignName>olok</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ano_fabricacao" id="0453BC64-F818-3EE7-DFCC-01AEFFFEC1C2">
+<createdBy>edils</createdBy>
+<createdTime>2026-05-01 20:12:45 UTC</createdTime>
+<generatorID>ED876F8D-5E8D-8DAA-428B-6CD0FD3960C1</generatorID>
+<ownerDesignName>olok</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="categoria" id="62EBF773-4297-4E26-AEBD-86FAE75D139E">
+<createdBy>edils</createdBy>
+<createdTime>2026-05-01 20:12:45 UTC</createdTime>
+<generatorID>0FAE2ABB-CC52-BF49-3B25-0A62F12206A5</generatorID>
+<ownerDesignName>olok</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ocorrencia_id_rotas" id="8CDE774E-8931-27A2-184A-52DF90B987AF">
+<createdBy>edils</createdBy>
+<createdTime>2026-05-01 20:12:45 UTC</createdTime>
+<generatorID>20F2BB2B-12F5-0CC2-2679-74312F3FC6A9</generatorID>
+<ownerDesignName>olok</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>40</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="23BAF63A-F9F4-5DE3-CC9B-31D0D3528466" referredColumn="3888C6FF-E3B2-1DE0-0E0B-9A5E78002E63"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A62F1598-B281-AAAB-1E52-934068BDA839" name="Veiculos_PK">
+<createdBy>edils</createdBy>
+<createdTime>2026-05-01 20:12:45 UTC</createdTime>
+<generatorID>FF4F82C8-DFCB-7813-332F-EBF1A8F8B3E7</generatorID>
+<ownerDesignName>olok</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5B82B73-35B2-8B3C-1D4E-D3C08AE7EC69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B2AA1FC-A4FB-53DC-9D92-20EC809E7A6B" name="Veiculos_Ocorrencia_FK">
+<createdBy>edils</createdBy>
+<createdTime>2026-05-01 20:12:45 UTC</createdTime>
+<generatorID>204CC527-DEBA-6F49-DCAE-16C2A328D860</generatorID>
+<ownerDesignName>olok</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CDE774E-8931-27A2-184A-52DF90B987AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
